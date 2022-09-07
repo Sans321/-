@@ -1,0 +1,40 @@
+import re
+# 1
+# answer = True
+# myvar = str(answer)
+# print(myvar)
+# 2
+# hi="Hello, world!"[::-1]
+# print(hi)
+# 3
+# def sum_pos(arr):
+#     return sum(x for x in arr if x > 0)
+    
+# a = [2, -4, 5, 1, 0, -10]
+# print(sum_pos(a))
+# 4
+# x=15
+# for i in range(x):
+#     print('%s%s' % (' ' * (x-i-1), '*' * (i*2+1))) 
+#5
+# def func(s):
+#     s = list(s)
+#     l=[]
+#     for i in range(len(s)):
+#         for k in range(len(s)):
+#             if i ==k:
+#                 continue
+#             if s[i] in l:
+#                 continue
+#             if s[i]==s[k]:
+#                 l.append(s[i])
+#     return l, len(l)
+# print(func('abbbbbbbf'))
+# print(func('abf'))
+# print(func('aabs'))
+# print(func('afdasawweq'))
+# 6
+# name = 'CamelCaseName'
+# name = re.sub(r'(?<!^)(?=[A-Z])', '-', name).lower()
+# print(name) 
+# 7
